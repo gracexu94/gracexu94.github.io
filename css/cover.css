@@ -100,6 +100,55 @@ body {
   margin-bottom: 30px;
 }
 
+.sidebar-title {
+  font-weight: bold;
+  font-size: 72px;
+  float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin-right: 10px;
+  margin-left: 10px;
+	padding: 0px;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sidebar-footer {
+  font-size: 8px;
+  float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin-right: 10px;
+  margin-left: 10px;
+	padding: 0px;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#sidebar {
+  position: fixed;
+  left: 10px;
+  top: 0px;
+}
+
+.list-group {
+  margin: 0 auto;
+}
+
 
 /*
  * Footer
@@ -144,6 +193,9 @@ body {
   .cover-container {
     width: 900px;
   }
+}
+.list-group {
+  text-align: center;
 }
 
 /* Ilin hover effect */
