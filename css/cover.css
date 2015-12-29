@@ -91,7 +91,7 @@ body {
 }
 .cover-heading {
   font-weight: bold;
-  font-size: 100px;
+  font-size: 140px;
   margin-bottom: 30px;
 }
 
@@ -160,7 +160,6 @@ body {
  * Affix and center
  */
 
-@media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
@@ -180,7 +179,7 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
-}
+
 
 @media (min-width: 992px) {
   .masthead,
